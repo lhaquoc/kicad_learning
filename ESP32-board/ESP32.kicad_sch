@@ -7546,7 +7546,7 @@
 		)
 		(uuid "40bdea40-9c2a-4d18-b6b8-94980077a039")
 	)
-	(label "D-"
+	(label "D+"
 		(at 99.06 48.26 0)
 		(effects
 			(font
@@ -7596,7 +7596,7 @@
 		)
 		(uuid "65e057d9-bb5d-4afc-a4fd-10b99b404c9a")
 	)
-	(label "USB_D+"
+	(label "USB_D-"
 		(at 119.38 45.72 0)
 		(effects
 			(font
@@ -7696,7 +7696,7 @@
 		)
 		(uuid "ab284878-a48b-405f-862b-d45e3432444a")
 	)
-	(label "D+"
+	(label "D-"
 		(at 99.06 45.72 0)
 		(effects
 			(font
@@ -7746,7 +7746,7 @@
 		)
 		(uuid "b480efd8-df6c-4d8a-ae42-7f298b078ac4")
 	)
-	(label "USB_D+"
+	(label "USB_D-"
 		(at 234.95 83.82 0)
 		(effects
 			(font
@@ -7836,7 +7836,7 @@
 		)
 		(uuid "d2dc5917-0d1e-4b81-a49a-dc295c83ed87")
 	)
-	(label "USB_D-"
+	(label "USB_D+"
 		(at 234.95 86.36 0)
 		(effects
 			(font
@@ -7886,7 +7886,7 @@
 		)
 		(uuid "f50fc14e-7653-4d21-b0b6-7a47a05e9dc0")
 	)
-	(label "USB_D-"
+	(label "USB_D+"
 		(at 119.38 48.26 0)
 		(effects
 			(font
@@ -7908,7 +7908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "061ca9fd-d054-47c6-8abd-f7e96e21429f")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 238.76 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Morten_Library:SW_SPST_B3U-1000P"
+		(property "Footprint" "Morten_Library:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
 			(at 238.76 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7970,7 +7970,7 @@
 		(instances
 			(project "ESP32"
 				(path "/386aef9e-3d57-4851-ad0f-7dbdc726a03d"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8166,7 +8166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Morten_Library:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 170.18 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8324,7 +8324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 35.56 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8700,7 +8700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "287e4a3c-d3d6-4acc-956a-e33e70cbced8")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 149.86 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8710,7 +8710,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "RESET"
 			(at 149.86 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8762,7 @@
 		(instances
 			(project "ESP32"
 				(path "/386aef9e-3d57-4851-ad0f-7dbdc726a03d"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Morten_Library:C_0603_1608Metric"
 			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9116,7 +9116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Morten_Library:C_0805_2012Metric"
 			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9273,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Morten_Library:D_SOD-123"
 			(at 91.44 20.955 0)
 			(hide yes)
 			(show_name no)
@@ -9433,7 +9433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
+		(property "Footprint" "Morten_Library:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
 			(at 106.68 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9883,7 +9883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Morten_Library:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 124.46 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +10121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Morten_Library:C_0805_2012Metric"
 			(at 22.86 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10361,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
+		(property "Footprint" "Morten_Library:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 			(at 36.83 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10741,7 +10741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d2057a6-b374-44da-8fe5-ac62787c4011")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 106.68 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10827,7 @@
 		(instances
 			(project "ESP32"
 				(path "/386aef9e-3d57-4851-ad0f-7dbdc726a03d"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11416,7 +11416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Morten_Library:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+		(property "Footprint" "Morten_Library:SW_SPST_B3U-1000P"
 			(at 101.6 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11576,7 +11576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Morten_Library:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 119.38 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12134,7 +12134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 57.15 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12222,7 +12222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "Morten_Library:LED_0603_1608Metric"
 			(at 62.23 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -12469,7 +12469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Morten_Library:C_0603_1608Metric"
 			(at 158.75 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13118,7 +13118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Morten_Library:C_0603_1608Metric"
 			(at 257.81 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13654,7 +13654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e36c72-b550-49a9-8393-8203c8d2f611")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 181.61 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13728,7 +13728,7 @@
 		(instances
 			(project "ESP32"
 				(path "/386aef9e-3d57-4851-ad0f-7dbdc726a03d"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14156,7 +14156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Morten_Library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 44.45 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14281,7 +14281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Morten_Library:Fuse_1206_3216Metric"
 			(at 59.69 26.67 0)
 			(hide yes)
 			(show_name no)
